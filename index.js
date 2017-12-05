@@ -5,15 +5,24 @@ function shout(strIn)
 
 function whisper(strIn)
 {
-  return strIn.toLowerCase()
+  return strIn.toLowerCase();
 }
 
 function logShout(strIn)
 {
-  console.log(strIn.toUpperCase())
+  console.log(strIn.toUpperCase());
 }
 
 function logWhisper(strIn)
 {
-  console.log(strIn.toLowerCase())
+  console.log(strIn.toLowerCase());
+}
+
+function sayHiToGrandma(strIn)
+{
+  if (strIn.toLowerCase === strIn)
+    return "I can't hear you!";
+  if (strIn.toUpperCase === strIn)
+    return "YES INDEED!";
+    
 }
