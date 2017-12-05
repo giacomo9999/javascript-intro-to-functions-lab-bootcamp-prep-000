@@ -10,5 +10,5 @@ function whisper(strIn)
 
 function logShout(strIn)
 {
-  console.log(strIn.toUpperCase)
+  console.log(strIn.toUpperCase())
 }
